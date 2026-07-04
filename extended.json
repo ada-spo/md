@@ -1,0 +1,19 @@
+{
+  "serial": 1,
+  "pool": {
+    "id": "3c870eb5bb1b963693046eed1131e9375d363c0735fc9d248150d55f",
+    "status": "active",
+    "contact": {
+      "email": "",
+      "telegram": "",
+      "twitter": ""
+    },
+    "media_assets": {
+      "icon_png_64x64": "",
+      "logo_png": "",
+      "logo_svg": "",
+      "color_fg": "#f59e0b",
+      "color_bg": "#0a0e17"
+    }
+  }
+}
