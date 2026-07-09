@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SUNNE — Sunner Pool | Cardano Stake Pool</title>
+  <title>SUNNE â€” Sunner Pool | Cardano Stake Pool</title>
   <meta name="description" content="Sunner (SUNNE) is a reliable Cardano staking pool. Low 3% margin, 340 ADA fixed fee, 491+ blocks minted. Delegate with confidence.">
   <meta name="keywords" content="cardano,ada,stake,pool,sunne,sunner,staking,crypto">
   <meta name="author" content="Sunner Pool">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="SUNNE — Sunner Pool | Cardano Stake Pool">
+  <meta property="og:title" content="SUNNE â€” Sunner Pool | Cardano Stake Pool">
   <meta property="og:description" content="Reliable Cardano staking pool. Low 3% margin, 340 ADA fixed cost. Join 60+ delegators staking with SUNNE.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ada-spo.github.io/md/">
@@ -17,12 +17,12 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="SUNNE — Sunner Pool | Cardano Stake Pool">
+  <meta name="twitter:title" content="SUNNE â€” Sunner Pool | Cardano Stake Pool">
   <meta name="twitter:description" content="Reliable Cardano staking pool. Low 3% margin, 340 ADA fixed cost. Join 60+ delegators staking with SUNNE.">
   <meta name="twitter:image" content="https://ada-spo.github.io/md/og-image.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3Eâ˜€ï¸%3C/text%3E%3C/svg%3E">
 
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -408,6 +408,7 @@
       <div class="logo">SUNNE <span>| Sunner</span></div>
       <div class="nav-links">
         <a href="#stats">Stats</a>
+        <a href="#about">About</a>
         <a href="#delegate">Delegate</a>
         <a href="#resources">Resources</a>
       </div>
@@ -418,7 +419,7 @@
   <section class="hero">
     <div class="container">
       <div class="hero-ticker">SUNNE</div>
-      <p class="hero-name">Sunner — Cardano Stake Pool</p>
+      <p class="hero-name">Sunner â€” Cardano Stake Pool</p>
       <div class="hero-poolid tooltip" id="poolIdDisplay" onclick="copyPoolId()">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
         pool18jrsaddmrwtrdycydmk3zv0fxawnv0q8xh7f6fyp2r247zz9tc5
@@ -440,11 +441,11 @@
     <div class="container">
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-value">3%</div>
+          <div class="stat-value" id="margin">3%</div>
           <div class="stat-label">Margin</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">340 ADA</div>
+          <div class="stat-value" id="fixedCost">340 ADA</div>
           <div class="stat-label">Fixed Cost</div>
         </div>
         <div class="stat-card">
@@ -452,7 +453,7 @@
           <div class="stat-label">Blocks Minted</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">63</div>
+          <div class="stat-value" id="delegatorCount">63</div>
           <div class="stat-label">Delegators</div>
         </div>
         <div class="stat-card">
@@ -460,13 +461,56 @@
           <div class="stat-label">Live Stake (ADA)</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">1.85%</div>
+          <div class="stat-value" id="saturation">1.85%</div>
           <div class="stat-label">Saturation</div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>About SUNNE</h2>
+      <p class="subtitle">A reliable, low-margin Cardano staking pool run on resilient infrastructure.</p>
+      <div class="about-grid">
+        <div class="about-content">
+          <p>Sunner (SUNNE) is committed to providing a secure, reliable, and high-performance staking experience for the Cardano community. With a competitive 3% margin and 340 ADA fixed fee, we maximize your rewards while maintaining enterprise-grade infrastructure.</p>
+          <ul>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span><strong>Low 3% margin</strong> â€” one of the most competitive fees on Cardano</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span><strong>491+ blocks</strong> minted with proven reliability</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span><strong>Dual relays</strong> with redundant DNS for maximum uptime</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span><strong>63 delegators</strong> trust SUNNE with their stake</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="relay-box">
+            <h3>Relay Nodes</h3>
+            <div class="relay-item">
+              <span><span class="status"></span> <span class="relay-dns">sunner.sunner.org</span></span>
+              <span class="relay-port">Port 6000</span>
+            </div>
+            <div class="relay-item">
+              <span><span class="status"></span> <span class="relay-dns">sunner2.sunner.org</span></span>
+              <span class="relay-port">Port 6000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Delegate -->
   <section id="delegate">
@@ -493,7 +537,7 @@
         <div class="step-card">
           <div class="step-number">04</div>
           <h3>Delegate &amp; Earn</h3>
-          <p>Confirm the delegation transaction. Your ADA stays in your wallet — you never lose control. Rewards arrive every epoch (~5 days).</p>
+          <p>Confirm the delegation transaction. Your ADA stays in your wallet â€” you never lose control. Rewards arrive every epoch (~5 days).</p>
         </div>
       </div>
     </div>
@@ -537,7 +581,7 @@
         <a href="https://pooltool.io/pool/pool18jrsaddmrwtrdycydmk3zv0fxawnv0q8xh7f6fyp2r247zz9tc5" target="_blank" rel="noopener">PoolTool</a>
         <a href="https://cardanoscan.io/pool/pool18jrsaddmrwtrdycydmk3zv0fxawnv0q8xh7f6fyp2r247zz9tc5" target="_blank" rel="noopener">Cardanoscan</a>
       </div>
-      <p>SUNNE — Sunner Pool &bull; Powered by Cardano</p>
+      <p>SUNNE â€” Sunner Pool &bull; Powered by Cardano</p>
       <p style="margin-top: 8px;">
         <a href="https://github.com/ada-spo/md" target="_blank" rel="noopener">GitHub</a>
       </p>
@@ -545,14 +589,61 @@
   </footer>
 
   <script>
+    const POOL_ID = 'pool18jrsaddmrwtrdycydmk3zv0fxawnv0q8xh7f6fyp2r247zz9tc5';
+
     function copyPoolId() {
       const el = document.getElementById('poolIdDisplay');
-      const text = 'pool18jrsaddmrwtrdycydmk3zv0fxawnv0q8xh7f6fyp2r247zz9tc5';
-      navigator.clipboard.writeText(text).then(() => {
+      navigator.clipboard.writeText(POOL_ID).then(() => {
         el.classList.add('copied');
         setTimeout(() => el.classList.remove('copied'), 2000);
       });
     }
+
+    function formatStake(lovelace) {
+      const ada = Number(lovelace) / 1_000_000;
+      if (ada >= 1_000_000) return (ada / 1_000_000).toFixed(1) + 'M';
+      if (ada >= 1_000) return (ada / 1_000).toFixed(1) + 'K';
+      return ada.toLocaleString();
+    }
+
+    function formatMargin(ratio) {
+      return (Number(ratio) * 100).toFixed(0) + '%';
+    }
+
+    function formatFixedCost(lovelace) {
+      return (Number(lovelace) / 1_000_000).toLocaleString() + ' ADA';
+    }
+
+    async function fetchPoolData() {
+      try {
+        const res = await fetch('https://api.koios.rest/api/v1/pool_info', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ _pool_bech32_ids: [POOL_ID] })
+        });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        if (!data || !data.length) return;
+        const p = data[0];
+
+        setText('margin', formatMargin(p.margin));
+        setText('fixedCost', formatFixedCost(p.fixed_cost));
+        setText('blockCount', (p.block_count ?? 0).toLocaleString());
+        setText('delegatorCount', (p.live_delegators ?? 0).toLocaleString());
+        setText('liveStake', formatStake(p.live_stake));
+        setText('saturation', Number(p.live_saturation ?? 0).toFixed(2) + '%');
+      } catch (err) {
+        console.error('Failed to fetch pool data:', err);
+      }
+    }
+
+    function setText(id, val) {
+      const el = document.getElementById(id);
+      if (el) el.textContent = val;
+    }
+
+    fetchPoolData();
+    setInterval(fetchPoolData, 300_000);
   </script>
 
 </body>
